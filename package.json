@@ -7,10 +7,10 @@
     "lint": "prettier -l index.js tests/*.js",
     "test": "node tests/test | tap-dot"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["chemistry", "atomistics", "optimization", "gradient descent", "steepest descent"],
+  "author": "Rye Terrell",
+  "license": "Unlicense",
+  "description": "Given a set of atomic positions and a potential energy calculator, provides a function that steps in the direction of the force.",
   "devDependencies": {
     "@atomistics/lennard-jones-pairwise-js": "^1.0.0",
     "@atomistics/pairwise-potential": "^1.0.0",
