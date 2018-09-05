@@ -1,0 +1,22 @@
+{
+  "name": "@atomistics/gradient-descent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write index.js tests/*.js",
+    "lint": "prettier -l index.js tests/*.js",
+    "test": "node tests/test | tap-dot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@atomistics/lennard-jones-pairwise-js": "^1.0.0",
+    "@atomistics/pairwise-potential": "^1.0.0",
+    "compute-l2norm": "^1.1.0",
+    "prettier": "^1.14.2",
+    "tap-dot": "^2.0.0",
+    "tape": "^4.9.1"
+  }
+}
