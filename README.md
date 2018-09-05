@@ -3,6 +3,10 @@
 Given a set of atomic positions and a potential energy calculator, provides a function that steps in the direction of
 the force.
 
+```
+npm i --save @atomistics/gradient-descent
+``` 
+
 ## Example
 
 ```js
