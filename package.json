@@ -7,7 +7,13 @@
     "lint": "prettier -l index.js tests/*.js",
     "test": "node tests/test | tap-dot"
   },
-  "keywords": ["chemistry", "atomistics", "optimization", "gradient descent", "steepest descent"],
+  "keywords": [
+    "chemistry",
+    "atomistics",
+    "optimization",
+    "gradient descent",
+    "steepest descent"
+  ],
   "author": "Rye Terrell",
   "license": "Unlicense",
   "description": "Given a set of atomic positions and a potential energy calculator, provides a function that steps in the direction of the force.",
